@@ -1,0 +1,413 @@
+/* min-width 1501. */
+
+@media (min-width: 1885px) {
+  .cloud-img {
+    right: 274px;
+  }
+
+  .top-sections {
+    height: 2780px;
+  }
+
+  .control-robot:before {
+    left: 260px;
+  }
+
+  .top-sections:after {
+    height: 600px;
+  }
+
+  .value-1:before {
+    top: -130px;
+    width: 900px;
+    height: 1000px;
+  }
+
+  .value-2:before {
+    top: -110px;
+    width: 744px;
+    height: 934px;
+  }
+}
+
+@media (min-width: 1701px) and (max-width: 1880px) {
+  .cloud-img {
+    right: 191px;
+  }
+
+  .top-sections {
+    height: 2700px;
+  }
+
+  .top-sections:after {
+    height: 550px;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1700px) {
+  .cloud-img {
+    right: 84px;
+  }
+
+  .top-sections {
+    height: 2700px;
+  }
+
+
+  .top-sections:after {
+    height: 480px;
+  }
+}
+
+@media (min-width: 1380px) and (max-width: 1500px) {
+  .top-sections:after {
+    height: 480px;
+  }
+}
+
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .cloud-img {
+    right: -55px;
+  }
+}
+
+@media (max-width: 1024px) {
+  footer {
+    background-position: center;
+  }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-img-wrapper {
+    width: 670px;
+  }
+
+  .cloud-img {
+    top: 380px;
+    right: -92px;
+  }
+
+  .cloud-img img {
+    width: 590px;
+  }
+
+  .single-item .line.line-1 {
+    top: 105px;
+  }
+
+  .single-item .line.line-2 {
+    top: 72px;
+  }
+
+  .control-robot:before {
+    width: 666px;
+    height: 662px;
+  }
+
+  .service {
+    padding: 10px 0 20px 0;
+  }
+
+  .value-1:before {
+    width: 615px;
+    height: 705px;
+  }
+
+  .value-2:before {
+    width: 458px;
+    height: 740px;
+  }
+
+  .cloud .section-title h3 br {
+    display: none;
+  }
+
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-dark .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-nav {
+    background: #16051d;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  header .navbar-nav .nav-item {
+    margin: 8px 0;
+  }
+
+  .hero {
+    height: 800px;
+  }
+
+  .hero-img-wrapper {
+    width: 510px;
+  }
+
+  .cloud .section-title h3 br,
+  .value-content p br {
+    display: none;
+  }
+
+  .cloud-img img {
+    width: 400px;
+  }
+
+  .cloud-img {
+    top: 300px;
+    right: -24px;
+  }
+
+  .top-sections {
+    height: 2447px;
+  }
+
+  .top-sections:after {
+    height: 308px;
+  }
+
+  .single-service,
+  .single-edu-content {
+    margin-bottom: 30px;
+  }
+
+  .value-1:before {
+    width: 497px;
+    height: 573px;
+  }
+
+  .value-2:before {
+    width: 400px;
+    height: 585px;
+  }
+
+  .control-robot:before {
+    width: 666px;
+    height: 662px;
+  }
+
+  .footer-top .subscribe input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  .navbar-dark .navbar-toggler {
+    border: none;
+  }
+
+
+  .navbar-nav {
+    background: #16051d;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  header .navbar-nav .nav-item {
+    margin: 8px 0;
+  }
+
+  header .logo {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  header .search {
+    width: 200px;
+  }
+
+  .hero-content {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .hero-content,
+  .hero-get-started,
+  .hero-backers,
+  .section-title,
+  .control-robot-content,
+  .value-content,
+  .footer-bottom {
+    text-align: center;
+  }
+
+
+
+  .hero-content h1 {
+    font-size: 48px;
+  }
+
+  .promo-btn {
+    margin-right: 20px;
+  }
+
+  .hero-btn {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .hero-backers .hero-backers-1 {
+    margin-bottom: 20px;
+  }
+
+  .cloud-img img {
+    width: 300px;
+  }
+
+  .cloud-img {
+    position: relative;
+    top: 0;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .cluod-items {
+    padding: 0;
+    width: 100%;
+  }
+
+  .cloud .section-title h3 {
+    font-size: 28px;
+  }
+
+  .control-robot .section-title {
+    margin-top: 30px;
+  }
+
+  .single-service,
+  .single-edu-content {
+    margin-bottom: 30px;
+  }
+
+  .cloud-item-content h4 {
+    font-size: 16px;
+  }
+
+  .control-robot {
+    padding: 0px 0 180px 0;
+  }
+
+  .top-sections {
+    height: 2810px;
+  }
+
+  .top-sections:after {
+    height: 138px;
+  }
+
+  .value {
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 50px 0;
+  }
+
+  .value-1:before {
+    top: unset;
+    right: 0;
+    bottom: 0;
+    width: 290px;
+    height: 340px;
+  }
+
+  .value-2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 290px;
+    height: 372px;
+  }
+
+  .value-content {
+    margin-bottom: 30px;
+  }
+
+  .educate {
+    padding-bottom: 45px;
+  }
+
+  footer {
+    background-position: center;
+    height: auto;
+    padding: 290px 0 40px 0;
+  }
+
+  .footer-top .subscribe input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .sub-btn {
+    width: 120px;
+  }
+
+  .footer-top h2 {
+    font-size: 40px;
+  }
+
+  .footer-social {
+    margin-top: 40px;
+  }
+
+
+
+  .cloud .section-title h3 br,
+  .value-content p br,
+  .hero-content h1 br,
+  .cloud .section-title h3 br {
+    display: none;
+  }
+
+  .hero-img-wrapper {
+    display: none;
+  }
+
+  .control-robot:before {
+    top: -86px;
+    width: 416px;
+    height: 485px;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+  .top-sections:after {
+    height: 156px;
+  }
+
+  .top-sections {
+    height: 2850px;
+  }
+}
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .top-sections:after {
+    height: 255px;
+  }
+
+  .top-sections {
+    height: 2940px;
+  }
+
+  .control-robot:before {
+    top: -86px;
+    width: 561px;
+    height: 618px;
+  }
+}

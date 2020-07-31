@@ -1,0 +1,897 @@
+/* ====================================================
+  Template Name: WordPress Fair HTML5 landing page
+  Template URI: http://dreamroadtech.com/templates/morix-preview/
+  Description: WordPress Fair HTML5 landing page
+  Author: Abc It Park
+  Author URI: http://www.abcitpark.com
+  version: 1.0
+==================================================== */
+
+/* CSS Index
+------------------------------------
+
+01. Template Default CSS 
+02. header css
+
+
+
+
+
+
+*/
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  /* max-width: 1450px; */
+  /* margin: 0 auto; */
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.button {
+  display: inline-block;
+  background: transparent;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  background: linear-gradient(to top, #6420a3, #7850FA);
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+.button:hover {
+  background: linear-gradient(to bottom, #6420a3, #7850FA);
+  color: #fff;
+}
+
+a:focus,
+.button:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ====================================================
+   Author's custom styles
+   ==================================================== */
+
+/* ..................................
+ 02. header css 
+.................................. */
+.top-sections {
+  /* background: url(../img/main-bg.png); */
+  background: #110A12;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 100%;
+  height: 2600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.top-sections:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 101%;
+  height: 400px;
+  background: url(../img/hero/divider.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  padding: 10px 0;
+}
+
+header .logo {
+  width: 180px;
+  margin-right: 40px;
+}
+
+header .search {
+  border: 1px solid #4E4453;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+header .search i {
+  color: #4E4453;
+  margin-right: 10px;
+}
+
+header .search input {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+header .navbar {
+  padding: 0;
+}
+
+header .navbar-nav .nav-link {
+  letter-spacing: 1px;
+}
+
+header .navbar-nav .nav-item {
+  margin-left: 10px;
+}
+
+.nav-btn {
+  width: 120px;
+  height: 38px;
+  color: #fff !important;
+}
+
+/* ..................................
+ 01. hero CSS 
+.................................. */
+
+.hero {
+  height: 900px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: radial-gradient(circle at center,
+      #190125,
+      #15051C 50%);
+}
+
+
+.hero-img-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  width: auto;
+  height: auto;
+  z-index: 0;
+}
+
+.hero .hero-img,
+.hero .hero-shape {
+  animation: motion 5s infinite linear;
+  -webkit-animation: motion 5s infinite linear;
+}
+
+@keyframes motion {
+  0% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(30px);
+    -webkit-transform: translateX(30px);
+    -moz-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -o-transform: translateX(30px);
+  }
+
+  100% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+
+.hero-img-wrapper .hero-shape {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: rgb(148, 148, 148);
+}
+
+.hero-get-started {
+  margin-top: 30px;
+}
+
+.hero-get-started .modal-btn {
+  padding: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 10px;
+}
+
+.hero-get-started .promo-btn {
+  color: rgb(156, 156, 156);
+  font-size: 16px;
+}
+
+.hero-get-started .promo-btn .play-btn {
+  display: inline-block;
+  color: #000;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50% !important;
+  background: #fff;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+.hero-btn {
+  width: 220px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.hero-backers {
+  margin-top: 90px;
+}
+
+.hero-backers {
+  font-size: 15px;
+  color: #4E4453;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hero-backers img {
+  margin-right: 30px;
+}
+
+.hero-backers .hero-backers-1 {
+  max-width: 150px;
+}
+
+.hero-backers .hero-backers-2 {
+  max-width: 120px;
+}
+
+.hero-backers .hero-backers-3 {
+  max-width: 60px;
+}
+
+
+/* ..................................
+ 01. cloud CSS 
+.................................. */
+.cloud {
+  padding: 80px 0;
+  position: relative;
+  background: linear-gradient(to bottom, #16051E, #110A12)
+}
+
+.cloud-img {
+  position: absolute;
+  top: 224px;
+  right: 0;
+  width: auto;
+  height: auto;
+}
+
+.cloud-img img {
+  width: 800px;
+}
+
+
+.cloud .section-title {
+  padding-bottom: 40px;
+}
+
+.cloud .section-title h5 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #4E4453;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.cloud .section-title h3 {
+  font-size: 34px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.cluod-items {
+  padding: 30px;
+  background: linear-gradient(0deg,
+      #120715 0%,
+      #16021F 25%,
+      #16021F 65%,
+      #120715 100%);
+  width: 365px;
+}
+
+.single-item {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  padding: 35px 0;
+  border-top: 2px solid #000;
+}
+
+.single-item>img {
+  width: 26px;
+  height: 26px;
+  margin-right: 20px;
+}
+
+.cloud-item-content h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.cloud-item-content p {
+  color: rgb(112, 112, 112);
+  margin-bottom: 0;
+}
+
+.single-item .line {
+  position: absolute;
+}
+
+.single-item .line.line-1 {
+  top: 55px;
+  right: -245px;
+}
+
+.single-item .line.line-2 {
+  top: 45px;
+  right: -205px;
+}
+
+.single-item .line.line-3 {
+  top: 0px;
+  right: -245px;
+}
+
+.single-item .line img {
+  width: 100%;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cloud-btn {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+
+/* ..................................
+ 01. control robot CSS 
+.................................. */
+.control-robot {
+  padding: 100px 0 180px 0;
+  position: relative;
+}
+
+.control-robot:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980px;
+  height: 980px;
+  background: url(../img/hero/hero-shape-2.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.control-robot-img img {
+  width: 100%;
+}
+
+.section-title {
+  padding-bottom: 45px;
+}
+
+.section-title img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.section-title h3 {
+  font-size: 32px;
+  color: #0A2440;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.control-robot .section-title h3 {
+  color: #fff;
+}
+
+.control-robot-content p {
+  color: #fff;
+  word-spacing: 4px;
+  margin-bottom: 40px;
+}
+
+/* ..................................
+ 01. service CSS 
+.................................. */
+.service {
+  padding: 100px 0 20px 0;
+}
+
+.single-service {
+  text-align: center;
+  padding: 40px 30px;
+  background: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.single-service img {
+  width: 200px;
+}
+
+.single-service p {
+  color: #3b3b3b;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 25px 0 40px 0;
+}
+
+.single-service p a {
+  text-decoration: underline;
+}
+
+.single-service-wrapper:nth-child(1) p a {
+  color: #45A922;
+}
+
+.single-service-wrapper:nth-child(2) p a {
+  color: #FF0000;
+}
+
+.single-service-wrapper:nth-child(3) p a {
+  color: #01A2FF;
+}
+
+.service-btn {
+  width: 150px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.service-btn-1 {
+  background: #45A922;
+}
+
+.service-btn-1:hover {
+  background: #3a8a1d;
+}
+
+.service-btn-2 {
+  background: #FF0000;
+}
+
+.service-btn-2:hover {
+  background: #d30000;
+}
+
+.service-btn-3 {
+  background: #01A2FF;
+}
+
+.service-btn-3:hover {
+  background: #0071b3;
+}
+
+/* ..................................
+ 01. value CSS 
+.................................. */
+.value {
+  padding: 80px 0;
+}
+
+.value-1,
+.value-2 {
+  position: relative;
+}
+
+.value-1:before {
+  content: '';
+  position: absolute;
+  top: -62px;
+  right: 0;
+  width: 830px;
+  height: 930px;
+  background: url(../img/value/shape-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.value-2:before {
+  content: '';
+  position: absolute;
+  top: -90px;
+  left: 0;
+  width: 630px;
+  height: 830px;
+  background: url(../img/value/shape-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.value .section-title {
+  padding-bottom: 20px;
+}
+
+.section-title h5 {
+  font-size: 15px;
+  color: #5C6C7B;
+  text-transform: uppercase;
+}
+
+.value .section-title h3 {
+  text-transform: initial;
+}
+
+.value-content p {
+  color: rgb(59, 59, 59);
+  font-size: 15px;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.value-1 .value-img img {
+  animation: leftToRight 6s infinite linear;
+  -webkit-animation: leftToRight 6s infinite linear;
+}
+
+.value-2 .value-img img {
+  animation: rightToLeft 6s infinite linear;
+  -webkit-animation: rightToLeft 6s infinite linear;
+}
+
+@keyframes leftToRight {
+  0% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(-50px);
+    -webkit-transform: translateX(-50px);
+    -moz-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+  }
+
+  100% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(50px);
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+  }
+
+  100% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+
+
+
+/* ..................................
+ 01. educate CSS 
+.................................. */
+.educate {
+  padding-bottom: 110px;
+}
+
+.educate .section-title h3 {
+  text-transform: initial;
+}
+
+.educate .section-title img {
+  width: 200px;
+  margin-bottom: -3px;
+}
+
+.single-edu-content {
+  padding: 25px;
+  background: #fff;
+  box-shadow: 0 0 20px 0 #0004f62d;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.single-edu-content-1 {
+  border-top: 12px solid #45A922;
+}
+
+.single-edu-content-2 {
+  border-top: 12px solid #FF0000;
+}
+
+.single-edu-content-3 {
+  border-top: 12px solid #01A2FF;
+}
+
+.single-edu-content img {
+  width: 120px;
+  height: 120px;
+  margin-left: -5px;
+  margin-bottom: 10px;
+}
+
+.single-edu-content h4 {
+  font-size: 26px;
+}
+
+.single-edu-content p {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.single-edu-content .meta {
+  margin-top: auto;
+}
+
+.single-edu-content .meta span {
+  color: #a5a5a5;
+}
+
+.single-edu-content .icon-group {
+  margin-top: 15px;
+}
+
+.single-edu-content .icon-group i {
+  color: #BEBEBE;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.single-edu-content .icon-group i.love {
+  color: #FE0053;
+}
+
+
+/* ..................................
+ 01. footer CSS 
+.................................. */
+
+footer {
+    background: url(../img/footer-bg.png);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1050px;
+    padding: 400px 0 0 0;
+}
+
+.footer-top {
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+.footer-top h2 {
+  font-size: 44px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-top p {
+  font-size: 15px;
+  color: rgb(187, 187, 187);
+  word-spacing: 2px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.footer-top .subscribe input {
+  width: 500px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.sub-btn {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 6px;
+  letter-spacing: 2px;
+}
+
+.footer-bottom {
+  padding-top: 50px;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+.footer-social {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.footer-social a {
+  margin-right: 30px;
+}
+
+.footer-social a i {
+  color: #888488;
+  font-size: 22px;
+}
+
+.footer-social a i:hover,
+.footer-bottom p a:hover,
+.foot-menu li:hover {
+  color: #fff;
+}
+
+.footer-bottom p {
+  color: rgb(184, 184, 184);
+}
+
+.foot-title {
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.foot-menu li {
+  display: block;
+  color: rgb(175, 175, 175);
+  margin-bottom: 15px;
+}
+
+.footer-bottom .email,
+.footer-bottom .phone {
+  margin-bottom: 0px;
+}
+
+.footer-bottom .email span,
+.footer-bottom .phone span {
+  font-weight: 600;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* end */
